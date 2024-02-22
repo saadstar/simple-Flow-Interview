@@ -1,0 +1,48 @@
+.outlet{
+    margin-top: 0px;    
+    .outletContainer{
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 82%;
+            padding-top: 40px;
+        }
+        .menuContainer{
+            width: 18%;
+            background-color: black;
+            color: #fff;
+            margin-top: 0;
+            img{
+                width: 120px;
+               transform: translateX(90%);
+               margin-bottom: 10px;
+            }
+        .outMenu{
+            display: flex;
+            flex-direction: column;
+                .menuItem{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                margin: 5px 10%;
+                color: #828181cf;
+                cursor: pointer;
+            }
+        }
+        }
+    }
+}
+
+@media only screen and (max-width:1040px) {
+    .outletContainer {
+        img{
+            width: 100% !important;
+        }
+        .menuContainer{
+        .outMenu{
+            display: none;
+        }
+    }
+    }
+}

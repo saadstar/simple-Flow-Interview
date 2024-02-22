@@ -1,0 +1,27 @@
+.Slider{
+    width: 100%;
+   .slide{
+    .carousel-inner{
+        .carousel-item{
+            .vid{
+                height: 60vh;
+            width: 100% !important;
+            object-fit: cover;
+            }
+            .carousel-caption{
+                h3{
+                    color: #fff;
+                        font-size: 40px;
+                        font-weight: 600;
+                            line-height: 1.2;
+                }
+                p{
+                    font-size: 20px;
+                    color: #fff;
+                        text-align: center;
+                }
+            }
+        }
+    }
+   }
+}
